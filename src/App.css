@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  height: 100vh;
+  background: #e8e8ec;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 .App-logo {
@@ -35,4 +41,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.searchCity{
+  margin: auto;
+  width: 300px;
+  background: grey;
+
+}
+
+.icon{
+  height: 80px;
+  width: 80px;
+  filter: drop-shadow(2px 1px 5px #4f4f4f);
+}
+
+h6{
+  margin: 0 0 8px 0;
 }
